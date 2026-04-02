@@ -29,3 +29,21 @@ we build a Linear Regression model to predict individual medical insurance charg
 | `Anual_Salary`                    | Income level                       |
 | `region`                          | Residential region                 |
 | `charges`                         | 💰 Insurance cost (Target)         |
+
+**Approach**:
+
+1. **Data Preprocessing**:
+Cleaned and validated dataset
+Encoded categorical variables (sex, smoker, region)
+Checked for missing values and inconsistencies
+
+**2. Exploratory Data Analysis (EDA)**:
+Distribution analysis of charges
+Outlier detection (BMI, salary, charges)
+Key insight: Smokers incur significantly higher charges
+
+**3. Model Building**
+
+We use a classic algorithm: 
+
+**Linear Regression**: charges=β0​+β1​X1​+β2​X2​+...+βn​X

@@ -9,6 +9,23 @@ we build a Linear Regression model to predict individual medical insurance charg
 **Goal**: Estimate healthcare costs accurately using data-driven insights.
 
 **Dataset Summary**
-📦 Records: 1,338 individuals
-🧾 Features: 13 variables
-🎯 Target Variable: charges
+📦 Records: 1,338 individuals.
+🧾 Features: 13 variables.
+🎯 Target Variable: charges.
+
+**Key Features**:
+| Feature                           | Description                        |
+| --------------------------------- | ---------------------------------- |
+| `age`                             | Age of the individual              |
+| `sex`                             | Gender                             |
+| `bmi`                             | Body Mass Index                    |
+| `children`                        | Number of dependents               |
+| `smoker`                          | Smoking status (major cost driver) |
+| `Claim_Amount`                    | Previous claim amount              |
+| `past_consultations`              | Medical consultation history       |
+| `num_of_steps`                    | Daily activity level               |
+| `Hospital_expenditure`            | Historical hospital costs          |
+| `NUmber_of_past_hospitalizations` | Past hospital visits               |
+| `Anual_Salary`                    | Income level                       |
+| `region`                          | Residential region                 |
+| `charges`                         | 💰 Insurance cost (Target)         |

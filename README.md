@@ -59,8 +59,13 @@ We use a classic algorithm:
 **Tech Stack**:
 
 Language: Python 🐍
+
 Libraries:
+
 pandas
+
 numpy
+
 scikit-learn
+
 matplotlib / seaborn

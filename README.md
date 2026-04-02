@@ -42,8 +42,25 @@ Distribution analysis of charges
 Outlier detection (BMI, salary, charges)
 Key insight: Smokers incur significantly higher charges
 
-**3. Model Building**
+**3. Model Building**:
 
 We use a classic algorithm: 
 
 **Linear Regression**: charges=β0​+β1​X1​+β2​X2​+...+βn​X
+
+**4. Model Evaluation**:
+
+| Metric         | Purpose                              |
+| -------------- | ------------------------------------ |
+| **R² Score**   | How well the model explains variance |
+| **MAE**        | Average prediction error             |
+| **MSE / RMSE** | Penalizes large errors               |
+
+**Tech Stack**:
+
+Language: Python 🐍
+Libraries:
+pandas
+numpy
+scikit-learn
+matplotlib / seaborn
